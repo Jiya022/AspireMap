@@ -85,11 +85,120 @@ ul li a:hover {
     color: white;
 }
 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Section */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('path/to/your/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Make text white for better readability against the background */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.about-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 600px;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-header h1, .about-header p, .about-text {
+    animation: fadeInUp 2s ease-in-out;
+}
+
 
 
 /* Hero section */
 .content {
-    background: url('../images/bg.jpg');
+    background: url('bg.jpg');
 
     background-position: center;
     background-size: cover;
@@ -249,6 +358,7 @@ ul li a:hover {
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
+    color: #333;
 }
 
 .form .link a {

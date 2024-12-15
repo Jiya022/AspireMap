@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>AspireMap</title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='css1/style.css')}}">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -20,16 +20,7 @@
                     <li><a href="#features">SERVICE</a></li>
                     <li><a href="#">FAQS</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="{{ url_for('about') }}">ABOUT</a></li>
-
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">FAQ'S</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <div class="new">
-                        <li>
-                            <button class="login">
-                                <a href="{{ url_for('login') }}">LOGIN</a>
-                            </button>
+                  <li><button class="login"><a href="login.html">LOGIN</a></button>
                         </li>
                     </div>
                 </ul>
@@ -46,14 +37,15 @@
            <br>
            <div class="ding">
             <button class="GetS">
-                <a href="{{ url_for('student_form') }}">Get Started</a>
+                <a href="student_form.html">Get Started</a>
             </button>
         </div>
          </div>
     </div>
 </div>
 </div>
-<!-- About Feature Section -->
+
+<!--Feature Section -->
 <section class="features" id="features">
     <div class="features-container">
         <h2>Our Features</h2>
@@ -75,7 +67,7 @@
     </div>
 </section>
 
-
+<!---Footer section-->
 
 <footer class="footer">
     <div class="footer-container">
