@@ -1,0 +1,64 @@
+<!--Contact details-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-AspireMap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out to us with any questions or feedback.</p>
+        </div>
+        <div class="contact-content">
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +1 234 567 890</p>
+                <p><strong>Email:</strong> contact@aspiremap.com</p>
+                <p><strong>Address:</strong> 123 AspireMap Lane, Career City, CA 94000</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer section-->
+<footer class="footer">
+    <div class="footer-container">
+        <h2 class="logo">AspireMap</h2>
+        <p>Empowering individuals with customized career roadmaps and insights.</p>
+        <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="index.html#features">Service</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        </div>
+
+    </div>
+    <p>&copy; 2024 AspireMap. All rights reserved.</p>
+</footer>
+</body>
+</html>

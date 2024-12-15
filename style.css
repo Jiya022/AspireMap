@@ -310,6 +310,77 @@ ul li a:hover {
 }
 
 
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    background-color: rgba(90, 86, 86, 0.6); 
+    text-align: center;
+}
+
+.contact-header h1 {
+    font-size: 36px;
+    color: rgb(44, 39, 31);
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 18px;
+    color:  rgb(44, 39, 31);
+    margin-bottom: 40px;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color:  rgb(44, 39, 31);
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(44, 39, 31);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: #f18a1cd2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+
+.contact-info {
+    margin-top: 40px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
 /* Footer Styles */
 
 .footer {
